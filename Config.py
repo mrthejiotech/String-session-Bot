@@ -17,11 +17,11 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
+    API_ID = 27731023
+    API_HASH = "e5533bd0cafa7bfa95205b2aaed57bcb"
+    BOT_TOKEN = "6784310951:AAH1ug3aHwNCL8fhPGs3FuvZCWhrtuc-U1o"
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = ""
+    MUST_JOIN = "@Oqlaksnsbavsjsuowksbsoghg"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
